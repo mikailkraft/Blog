@@ -7,7 +7,6 @@ export default function CustomImage({ src, alt, ...otherProps }) {
         className="object-cover object-top w-full h-auto"
         src={src}
         alt={alt || ''}
-        fill={true}
         {...otherProps}
       />
     </figure>
