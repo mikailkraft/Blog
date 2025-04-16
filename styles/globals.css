@@ -2,14 +2,18 @@
 @plugin '@tailwindcss/typography';
 
 @theme static {
+  --theme-headings: "Rubik Mono One";
+  --theme-body: "Crimson Pro";
   --color-primary: var(--theme-primary);
   --color-gradient-1: var(--theme-gradient-1);
   --color-gradient-2: var(--theme-gradient-2);
   --color-gradient-3: var(--theme-gradient-3);
   --color-gradient-4: var(--theme-gradient-4);
-  --font-primary: var(--theme-headings);
-  --font-secondary: var(--theme-body);
+  --font-primary: "Rubik Mono One";
+  --font-secondary: "Crimson Pro";
+
 }
+
 
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -25,5 +29,7 @@
 
   body {
     font-family: var(--font-secondary);
+    font-weight: 400 !important;
+    font-style: normal !important;
   }
 }
