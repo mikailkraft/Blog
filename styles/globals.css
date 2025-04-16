@@ -1,14 +1,16 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Rubik+Mono+One&display=swap');
+
 @theme static {
-  --color-primary: var(--theme-primary);
-  --color-gradient-1: var(--theme-gradient-1);
-  --color-gradient-2: var(--theme-gradient-2);
-  --color-gradient-3: var(--theme-gradient-3);
-  --color-gradient-4: var(--theme-gradient-4);
-  --font-primary: var(--theme-headings);
-  --font-secondary: var(--theme-body);
+  --color-primary: #FF286E;
+  --color-gradient-1: #FF286E;
+  --color-gradient-2: #44db00;
+  --color-gradient-3: #bd0386;
+  --color-gradient-4: #FF286E;
+  --font-primary: "Rubik Mono One", monospace;
+  --font-secondary: "Crimson Pro", serif;
 }
 
 @custom-variant dark (&:where(.dark, .dark *));
