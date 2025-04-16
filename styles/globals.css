@@ -1,8 +1,6 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Rubik+Mono+One&display=swap');
-
 @theme static {
   --theme-headings: "Rubik Mono One";
   --theme-body: "Crimson Pro";
