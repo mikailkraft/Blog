@@ -9,9 +9,11 @@
   --color-gradient-2: #44db00;
   --color-gradient-3: #bd0386;
   --color-gradient-4: #FF286E;
-  --font-primary: "Rubik Mono One", monospace;
-  --font-secondary: "Crimson Pro", serif;
+  --font-primary: "Rubik Mono One" 400, monospace;
+  --font-secondary: "Crimson Pro" 400, serif;
 }
+
+
 
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -22,10 +24,10 @@
   h4,
   h5,
   h6 {
-    font-family: var(--font-primary);
+    font: var(--font-primary);
   }
 
   body {
-    font-family: var(--font-secondary);
+    font: var(--font-secondary);
   }
 }
