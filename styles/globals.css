@@ -4,11 +4,11 @@
 @theme static {
   --theme-headings: "Rubik Mono One";
   --theme-body: "Crimson Pro";
-  --color-primary: var(--theme-primary);
-  --color-gradient-1: var(--theme-gradient-1);
-  --color-gradient-2: var(--theme-gradient-2);
-  --color-gradient-3: var(--theme-gradient-3);
-  --color-gradient-4: var(--theme-gradient-4);
+  --color-primary: #FF009A;
+  --color-gradient-1: #bd0050;
+  --color-gradient-2: #07b9af;
+  --color-gradient-3: #fb5ebd;
+  --color-gradient-4: #5FEBF2;
   --font-primary: "Rubik Mono One";
   --font-secondary: "Crimson Pro";
 
