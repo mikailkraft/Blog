@@ -14,8 +14,6 @@
   --font-primary: var(--theme-headings);
   --font-secondary: var(--theme-body);
 
-  font-weight: 400 !important;
-  font-style: normal !important;
 }
 
 
@@ -33,5 +31,7 @@
 
   body {
     font: var(--font-secondary);
+    font-weight: 400 !important;
+    font-style: normal !important;
   }
 }
