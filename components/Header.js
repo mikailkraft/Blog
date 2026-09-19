@@ -5,6 +5,12 @@ export default function Header({ name }) {
   return (
     <>
       <Head>
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="RSS Feed"
+          href="/feed.xml"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,326;1,326&family=Rubik+Mono+One&display=swap" rel="stylesheet" />
